@@ -1,0 +1,13 @@
+help: "\n
+  Available commands:\n
+    - help: Lists other commands.\n
+    \tCan be use to get more informations about other commands.\n
+    - exit: Exits current CLI program.\n
+    - encode: Encodes text with an encryption methods.\n
+    - decode: Decodes text that has been encoded with 'encode' command.\n
+    - paste: Paste text from clipboard. Can be used when encode or decode a text\n
+    - clear, c: Clears terminal window\n"
+
+encode: "\nEncode the given text, with the help of an encoder map, that is created on app start.\n"
+
+decode: "\nDecode the given code, with the help of a decoder map, that is created on app start, based on the encoder map.\n"
